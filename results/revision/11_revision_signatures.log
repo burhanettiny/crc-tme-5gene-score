@@ -1,0 +1,79 @@
+
+        CMS1         CMS2         CMS3         CMS4 
+          82          172          102          163 
+Unclassified 
+          60 
+
+  C1   C2   C3   C4   C5   C6 <NA> 
+ 116  101   74   59  152   60   17 
+Kruskal-Wallis (risk score ~ CMS): p = 1.33e-25 
+           CMS risk_score
+1         CMS1   2.615309
+2         CMS2   2.397744
+3         CMS3   2.325745
+4         CMS4   2.773058
+5 Unclassified   2.443431
+Spearman: 5-gene ~ Oncotype-like = 0.454 | 5-gene ~ stromal group = 0.427 
+Common complete-case set: n = 562 | events = 191 
+                          model C_index    AIC HR_5gene
+                          Stage   0.584 2202.2       NA
+                 Stage + 5-gene   0.603 2197.2     1.54
+          Stage + Oncotype-like   0.605 2194.6       NA
+                    Stage + CMS   0.609 2203.6       NA
+                    Stage + CIT   0.611 2199.1       NA
+ Stage + Oncotype-like + 5-gene   0.608 2194.8     1.28
+           Stage + CMS + 5-gene   0.616 2201.6     1.44
+           Stage + CIT + 5-gene   0.614 2197.4     1.43
+  L95  U95 p_5gene LRT_p_adding_5gene
+   NA   NA      NA                 NA
+ 1.13 2.11 0.00667            0.00797
+   NA   NA      NA                 NA
+   NA   NA      NA                 NA
+   NA   NA      NA                 NA
+ 0.89 1.83 0.18000            0.18300
+ 1.01 2.04 0.04130            0.04390
+ 1.00 2.06 0.05080            0.05460
+          CMS   n events    HR   L95  U95       p
+         CMS1  82     25 1.361 0.513 3.61 0.53571
+         CMS2 172     50 2.081 0.939 4.61 0.07108
+         CMS3 102     30 0.539 0.160 1.82 0.31858
+         CMS4 163     69 1.912 1.172 3.12 0.00945
+ Unclassified  60     20 0.706 0.228 2.18 0.54468
+Risk score x CMS interaction p = 0.192 
+   cohort   gene HR_SD       p
+     TCGA    MYC 0.984 0.88336
+     TCGA   CDK1 0.995 0.96435
+     TCGA  CCNB1 0.883 0.22874
+     TCGA  TOP2A 0.961 0.69611
+     TCGA   CD44 0.992 0.93618
+     TCGA  CCNA2 0.883 0.23217
+     TCGA  AURKA 0.972 0.79300
+     TCGA  CHEK1 0.901 0.31711
+     TCGA MAD2L1 0.896 0.29541
+     TCGA  KIF23 1.019 0.85676
+ GSE39582    MYC 0.872 0.04471
+ GSE39582   CDK1 0.926 0.25988
+ GSE39582  CCNB1 0.820 0.00267
+ GSE39582  TOP2A 0.937 0.34055
+ GSE39582   CD44 1.049 0.52317
+ GSE39582  CCNA2 0.886 0.07593
+ GSE39582  AURKA 0.829 0.00579
+ GSE39582  CHEK1 0.921 0.24933
+ GSE39582 MAD2L1 0.908 0.15805
+ GSE39582  KIF23 0.951 0.47811
+Cohort-2 LASSO: genes selected at lambda.min = 0 | lambda.1se = 0 
+Cell-cycle score, penalized spline, TCGA : p non-linear = 0.705 
+Cell-cycle score, penalized spline, GSE39582 : p non-linear = 0.545 
+Top-25 (z) genes selected: SERPINE1, TIMP1, MMP3 
+                                     Score HR_SD   L95  U95
+                         TME mean z | TCGA 0.949 0.775 1.16
+                     TME mean z | GSE39582 1.070 0.931 1.23
+                  Cell-cycle mean z | TCGA 0.927 0.756 1.14
+              Cell-cycle mean z | GSE39582 0.887 0.780 1.01
+ Top-25 hubs, curation-free (z) | GSE39582 1.320 1.150 1.52
+        p HR_SD_stage  p_stage  AUC3 AUC_L AUC_U p_logrank
+ 6.11e-01       0.925 0.447000 0.454 0.367 0.541     0.472
+ 3.39e-01       1.070 0.324000 0.491 0.430 0.552     0.869
+ 4.70e-01       0.985 0.889000 0.497 0.408 0.586     0.503
+ 6.60e-02       0.887 0.073100 0.399 0.339 0.459     0.217
+ 9.23e-05       1.280 0.000534 0.614 0.555 0.674     0.024

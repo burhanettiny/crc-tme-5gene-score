@@ -1,0 +1,185 @@
+"label","threshold","net_benefit"
+"Treat All",0.05,0.177273621172988
+"Treat All",0.06,0.168521212887594
+"Treat All",0.07,0.159580580768106
+"Treat All",0.08,0.150445587080803
+"Treat All",0.09,0.141109824301471
+"Treat All",0.1,0.131566600127043
+"Treat All",0.11,0.121808921476785
+"Treat All",0.12,0.111829477402658
+"Treat All",0.13,0.101620620821079
+"Treat All",0.14,0.0911743489701612
+"Treat All",0.15,0.0804822824874572
+"Treat All",0.16,0.0695356429932603
+"Treat All",0.17,0.0583252290534201
+"Treat All",0.18,0.0468413903833399
+"Treat All",0.19,0.0350740001411589
+"Treat All",0.2,0.0230124251429233
+"Treat All",0.21,0.0106454938156186
+"Treat All",0.22,-0.00203853831495046
+"Treat All",0.23,-0.0150520258255342
+"Treat All",0.24,-0.0284079735337649
+"Treat All",0.25,-0.0421200798475484
+"Treat All",0.26,-0.0562027836292721
+"Treat All",0.27,-0.0706713149118648
+"Treat All",0.28,-0.0855417498411963
+"Treat All",0.29,-0.100831070261495
+"Treat All",0.3,-0.116557228408088
+"Treat All",0.31,-0.132739217225596
+"Treat All",0.32,-0.149397146890678
+"Treat All",0.33,-0.166552328187554
+"Treat All",0.34,-0.184227363463123
+"Treat All",0.35,-0.20244624597794
+"Treat All",0.36,-0.221234468571346
+"Treat All",0.37,-0.240619142675653
+"Treat All",0.38,-0.260629128847841
+"Treat All",0.39,-0.281295180140428
+"Treat All",0.4,-0.302650099809436
+"Treat All",0.41,-0.324728915060443
+"Treat All",0.42,-0.347569068768382
+"Treat All",0.43,-0.371210631378353
+"Treat All",0.44,-0.39569653551011
+"Treat All",0.45,-0.421072836155748
+"Treat All",0.46,-0.447388999788262
+"Treat All",0.47,-0.474698226199361
+"Treat All",0.48,-0.503057807472426
+"Treat All",0.49,-0.532529529187571
+"Treat All",0.5,-0.563180119771323
+"Treat None",0.05,0
+"Treat None",0.06,0
+"Treat None",0.07,0
+"Treat None",0.08,0
+"Treat None",0.09,0
+"Treat None",0.1,0
+"Treat None",0.11,0
+"Treat None",0.12,0
+"Treat None",0.13,0
+"Treat None",0.14,0
+"Treat None",0.15,0
+"Treat None",0.16,0
+"Treat None",0.17,0
+"Treat None",0.18,0
+"Treat None",0.19,0
+"Treat None",0.2,0
+"Treat None",0.21,0
+"Treat None",0.22,0
+"Treat None",0.23,0
+"Treat None",0.24,0
+"Treat None",0.25,0
+"Treat None",0.26,0
+"Treat None",0.27,0
+"Treat None",0.28,0
+"Treat None",0.29,0
+"Treat None",0.3,0
+"Treat None",0.31,0
+"Treat None",0.32,0
+"Treat None",0.33,0
+"Treat None",0.34,0
+"Treat None",0.35,0
+"Treat None",0.36,0
+"Treat None",0.37,0
+"Treat None",0.38,0
+"Treat None",0.39,0
+"Treat None",0.4,0
+"Treat None",0.41,0
+"Treat None",0.42,0
+"Treat None",0.43,0
+"Treat None",0.44,0
+"Treat None",0.45,0
+"Treat None",0.46,0
+"Treat None",0.47,0
+"Treat None",0.48,0
+"Treat None",0.49,0
+"Treat None",0.5,0
+"Stage_only",0.05,0.177273621172988
+"Stage_only",0.06,0.168521212887594
+"Stage_only",0.07,0.159580580768106
+"Stage_only",0.08,0.150445587080803
+"Stage_only",0.09,0.141109824301471
+"Stage_only",0.1,0.131566600127043
+"Stage_only",0.11,0.121808921476785
+"Stage_only",0.12,0.111829477402658
+"Stage_only",0.13,0.101620620821079
+"Stage_only",0.14,0.0911743489701612
+"Stage_only",0.15,0.0804822824874572
+"Stage_only",0.16,0.0695356429932603
+"Stage_only",0.17,0.0716016698904425
+"Stage_only",0.18,0.066809078940246
+"Stage_only",0.19,0.0618981524110322
+"Stage_only",0.2,0.056864452718588
+"Stage_only",0.21,0.0517033175908921
+"Stage_only",0.22,0.0464098456650502
+"Stage_only",0.23,0.0409788809619137
+"Stage_only",0.24,0.0354049961350104
+"Stage_only",0.25,0.0296824743793897
+"Stage_only",0.26,0.0238052898736171
+"Stage_only",0.27,0.0177670866142616
+"Stage_only",0.28,0
+"Stage_only",0.29,0
+"Stage_only",0.3,0
+"Stage_only",0.31,0
+"Stage_only",0.32,0
+"Stage_only",0.33,0
+"Stage_only",0.34,0
+"Stage_only",0.35,0
+"Stage_only",0.36,0
+"Stage_only",0.37,0
+"Stage_only",0.38,0
+"Stage_only",0.39,0
+"Stage_only",0.4,0
+"Stage_only",0.41,0
+"Stage_only",0.42,0
+"Stage_only",0.43,0
+"Stage_only",0.44,0
+"Stage_only",0.45,0
+"Stage_only",0.46,0
+"Stage_only",0.47,0
+"Stage_only",0.48,0
+"Stage_only",0.49,0
+"Stage_only",0.5,0
+"Stage_plus_5gene",0.05,0.177273621172988
+"Stage_plus_5gene",0.06,0.168521212887594
+"Stage_plus_5gene",0.07,0.159580580768106
+"Stage_plus_5gene",0.08,0.150445587080803
+"Stage_plus_5gene",0.09,0.141109824301471
+"Stage_plus_5gene",0.1,0.131566600127043
+"Stage_plus_5gene",0.11,0.12206116858873
+"Stage_plus_5gene",0.12,0.108931231897484
+"Stage_plus_5gene",0.13,0.100286806959706
+"Stage_plus_5gene",0.14,0.0955601908848508
+"Stage_plus_5gene",0.15,0.0793158188338501
+"Stage_plus_5gene",0.16,0.0772871023381305
+"Stage_plus_5gene",0.17,0.0711179630190803
+"Stage_plus_5gene",0.18,0.0685898120079886
+"Stage_plus_5gene",0.19,0.070444808736613
+"Stage_plus_5gene",0.2,0.056932950129657
+"Stage_plus_5gene",0.21,0.0481412422707828
+"Stage_plus_5gene",0.22,0.0462764184476275
+"Stage_plus_5gene",0.23,0.0378028998205004
+"Stage_plus_5gene",0.24,0.0329795903222535
+"Stage_plus_5gene",0.25,0.0311687004332577
+"Stage_plus_5gene",0.26,0.0392691649653368
+"Stage_plus_5gene",0.27,0.032368344201202
+"Stage_plus_5gene",0.28,0.0249304495561153
+"Stage_plus_5gene",0.29,0.0229831578495813
+"Stage_plus_5gene",0.3,0.0232019473379944
+"Stage_plus_5gene",0.31,0.0127663728643813
+"Stage_plus_5gene",0.32,0.014112652750421
+"Stage_plus_5gene",0.33,0.0193994974836273
+"Stage_plus_5gene",0.34,0.0158400047501038
+"Stage_plus_5gene",0.35,0.0158193787389552
+"Stage_plus_5gene",0.36,0.0160780838105627
+"Stage_plus_5gene",0.37,0.0113882009871263
+"Stage_plus_5gene",0.38,0.00736345571712445
+"Stage_plus_5gene",0.39,0.00154150583098175
+"Stage_plus_5gene",0.4,-0.000647668393782384
+"Stage_plus_5gene",0.41,0.000434915337874852
+"Stage_plus_5gene",0.42,0.000204191020699863
+"Stage_plus_5gene",0.43,0.00309062812471593
+"Stage_plus_5gene",0.44,0.00296076980014804
+"Stage_plus_5gene",0.45,0.00282618935468676
+"Stage_plus_5gene",0.46,0.00198298471182754
+"Stage_plus_5gene",0.47,0.00192263825072506
+"Stage_plus_5gene",0.48,0.00185997077188787
+"Stage_plus_5gene",0.49,6.77300281079617e-05
+"Stage_plus_5gene",0.5,0

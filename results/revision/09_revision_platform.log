@@ -1,0 +1,29 @@
+       original z_score rank_INT
+IL6      0.3558  0.2519   0.2410
+IL1B     0.0000  0.0000   0.0000
+CXCL8   -0.0656 -0.1101  -0.1384
+MYC      0.0000  0.0000   0.0000
+PTGS2   -0.1132 -0.0816   0.0000
+COL1A1   0.0000  0.0000   0.0000
+IL1A     0.0000  0.0000   0.0000
+TIMP1    0.2495  0.2422   0.2281
+CXCL12   0.0000  0.0000   0.0000
+MMP3    -0.1623 -0.2627  -0.2741
+Spearman rho with original score (GSE39582): z = 0.964 | rank-INT = 0.902 
+GSE39582 patients with zero follow-up (excluded from training): 6 
+GSE39582-trained coefficients:
+    MYC  COL1A1    IL1A   TIMP1    MMP3 
+-0.0682  0.0145  0.0515  0.1248 -0.1031 
+lambda.1se genes: 0 
+                                     Score HR_SD  L95  U95
+         GSE39582: original (unharmonized)  1.26 1.09 1.44
+              GSE39582: z-score harmonized  1.27 1.10 1.46
+             GSE39582: rank-INT harmonized  1.27 1.11 1.45
+       TCGA: original (training, apparent)  1.69 1.36 2.10
+ TCGA: GSE39582-trained score (reverse, z)  1.35 1.09 1.65
+        p HR_SD_stage  p_stage  AUC3 AUC_L AUC_U p_logrank
+ 1.36e-03        1.22 4.01e-03 0.587 0.525 0.650  0.012700
+ 7.56e-04        1.23 3.03e-03 0.600 0.538 0.662  0.024500
+ 5.24e-04        1.24 1.82e-03 0.602 0.541 0.663  0.001020
+ 2.45e-06        1.68 3.36e-06 0.628 0.544 0.713  0.000304
+ 4.89e-03        1.33 7.79e-03 0.606 0.522 0.690  0.010600

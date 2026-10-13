@@ -1,0 +1,121 @@
+TCGA n = 436 | events = 91 | EPV (10 candidates) = 9.1 | EPV (5 selected) = 18.2 
+GSE39582 n = 579 | events = 194 
+   gene original refit_lambda_min lambda_1se
+    IL6   0.3558           0.3558          0
+   IL1B   0.0000           0.0000          0
+  CXCL8  -0.0656          -0.0656          0
+    MYC   0.0000           0.0000          0
+  PTGS2  -0.1132          -0.1132          0
+ COL1A1   0.0000           0.0000          0
+   IL1A   0.0000           0.0000          0
+  TIMP1   0.2495           0.2495          0
+ CXCL12   0.0000           0.0000          0
+   MMP3  -0.1623          -0.1623          0
+lambda.min = 0.00807 ( 5 genes ) | lambda.1se = 0.0569 ( 0 genes )
+           model       term chisq      p
+   TCGA_risk_uni risk_score 1.361 0.2430
+   TCGA_risk_uni     GLOBAL 1.361 0.2430
+ TCGA_risk_multi risk_score 1.238 0.2660
+ TCGA_risk_multi        age 0.005 0.9450
+ TCGA_risk_multi     gender 0.863 0.3530
+ TCGA_risk_multi    stage_f 4.061 0.0439
+ TCGA_risk_multi     GLOBAL 7.989 0.0920
+      TCGA_CXCL8  CXCL8_grp 0.059 0.8080
+      TCGA_CXCL8        age 0.236 0.6270
+      TCGA_CXCL8     gender 1.232 0.2670
+      TCGA_CXCL8    stage_f 3.514 0.0608
+      TCGA_CXCL8     GLOBAL 5.741 0.2190
+       TCGA_MMP3   MMP3_grp 0.725 0.3950
+       TCGA_MMP3        age 0.241 0.6230
+       TCGA_MMP3     gender 1.267 0.2600
+       TCGA_MMP3    stage_f 4.160 0.0414
+       TCGA_MMP3     GLOBAL 8.153 0.0861
+    GSE_risk_uni risk_score 0.044 0.8340
+    GSE_risk_uni     GLOBAL 0.044 0.8340
+  GSE_risk_stage risk_score 0.001 0.9800
+  GSE_risk_stage    stage_f 3.131 0.0768
+  GSE_risk_stage     GLOBAL 3.133 0.2090
+     exp(coef) exp(-coef) lower .95 upper .95
+TCGA     3.798      0.263     2.039     7.075
+GSE      1.544      0.648     1.132     2.107
+
+VIF: 3.03 3.08 2.57 1.17 2.22 | condition indices: 1 1.76 2.58 3.37 3.87 
+       IL6 CXCL8 PTGS2 TIMP1 MMP3
+IL6   1.00  0.72  0.68  0.30 0.69
+CXCL8 0.72  1.00  0.73  0.19 0.68
+PTGS2 0.68  0.73  1.00  0.04 0.52
+TIMP1 0.30  0.19  0.04  1.00 0.20
+MMP3  0.69  0.68  0.52  0.20 1.00
+      exp(coef) lower .95 upper .95
+IL6       1.746     1.205     2.531
+CXCL8     0.825     0.571     1.193
+PTGS2     0.777     0.517     1.168
+TIMP1     1.301     1.026     1.651
+MMP3      0.678     0.502     0.917
+bootstrap 100 
+bootstrap 200 
+bootstrap 300 
+bootstrap 400 
+bootstrap 500 
+   gene original selected_pct positive_pct negative_pct
+    IL6    0.356         82.4         82.4          0.0
+   IL1B    0.000         42.4         32.0         10.4
+  CXCL8   -0.066         69.0          2.6         66.4
+    MYC    0.000         58.0         33.8         24.2
+  PTGS2   -0.113         69.8          1.0         68.8
+ COL1A1    0.000         56.0         11.6         44.4
+   IL1A    0.000         57.2         11.4         45.8
+  TIMP1    0.250         94.0         94.0          0.0
+ CXCL12    0.000         63.4         40.0         23.4
+   MMP3   -0.162         87.8          0.2         87.6
+ median_coef
+       0.401
+       0.000
+      -0.058
+       0.000
+      -0.121
+       0.000
+       0.000
+       0.260
+       0.000
+      -0.156
+
+== Curated 10 TME genes == null models: 0/100 | median genes selected: 5
+   IL6  CXCL8  PTGS2  TIMP1   MMP3 COL1A1 
+   100    100    100    100    100      7 
+Identical 5-gene set selected in 93 / 100 seeds
+Top-25 Cohort-1 hub genes: 25 
+
+== Top-25 hub genes, raw == null models: 32/100 | median genes selected: 8
+     AGT    PTGS2     CD36 SERPINE1   CXCL10    TIMP1 
+      68       68       68       68       68       68 
+    MMP3    CXCL8      IL6     MMP9   COL1A2     SPP1 
+      68       62       18       18       18       18 
+    CSF2      MYC   COL1A1     CD44   CXCL12   PDGFRB 
+      18       17       12        2        2        2 
+    IL1B 
+       1 
+
+== Top-25 hub genes, z-score == null models: 19/100 | median genes selected: 8
+   TIMP1     MMP3 SERPINE1     CD36   CXCL10    CXCL8 
+      81       80       79       75       75       68 
+     AGT    PTGS2      IL6     MMP9   COL1A2     SPP1 
+      68       68        5        5        5        5 
+    CSF2      MYC     CD44   COL1A1    CCND1   CXCL12 
+       5        4        2        2        2        2 
+  PDGFRB     IL1B 
+       2        1 
+
+Without IL6 : CXCL8, TIMP1, MMP3 
+
+Without CXCL8 : IL6, PTGS2, COL1A1, IL1A, TIMP1, MMP3 
+                   Score HR_SD  L95  U95        p
+       TCGA, without IL6  1.50 1.20 1.87 3.00e-04
+   GSE39582, without IL6  1.24 1.08 1.43 2.30e-03
+     TCGA, without CXCL8  1.68 1.35 2.10 3.83e-06
+ GSE39582, without CXCL8  1.25 1.09 1.44 1.71e-03
+ HR_SD_stage  p_stage  AUC3 AUC_L AUC_U p_logrank
+        1.51 3.33e-04 0.613 0.530 0.697   0.00799
+        1.21 8.08e-03 0.612 0.554 0.671   0.17437
+        1.70 3.06e-06 0.625 0.540 0.709   0.00401
+        1.23 4.10e-03 0.590 0.527 0.654   0.00680

@@ -1,0 +1,60 @@
+            cell_type rho_TCGA   p_TCGA rho_GSE39582
+                  MSC    0.384 9.20e-17       0.3560
+ mv Endothelial cells    0.298 2.15e-10       0.1970
+ ly Endothelial cells    0.229 1.28e-06       0.2760
+           Astrocytes    0.223 2.68e-06       0.2740
+        Smooth muscle   -0.207 1.32e-05      -0.2890
+            Pericytes    0.201 2.27e-05       0.4680
+                  CLP   -0.196 3.60e-05      -0.3350
+    Endothelial cells    0.179 1.79e-04       0.1230
+           Osteoblast   -0.165 5.54e-04      -0.0934
+          StromaScore    0.143 2.81e-03       0.2740
+       Macrophages M2    0.135 4.88e-03       0.2590
+            Sebocytes   -0.133 5.43e-03      -0.3020
+       Macrophages M1    0.131 6.10e-03       0.2400
+        Preadipocytes   -0.122 1.11e-02      -0.2760
+         Chondrocytes    0.119 1.28e-02       0.3790
+      Mesangial cells    0.113 1.78e-02       0.2480
+ p_GSE39582 FDR_TCGA FDR_GSE39582 consistent_FDR05
+   1.05e-18 6.16e-15     1.01e-17             TRUE
+   1.85e-06 4.79e-09     3.64e-06             TRUE
+   1.46e-11 1.72e-05     4.88e-11             TRUE
+   2.12e-11 2.56e-05     6.46e-11             TRUE
+   1.46e-12 9.82e-05     5.74e-12             TRUE
+   6.41e-33 1.52e-04     4.29e-31             TRUE
+   1.21e-16 2.20e-04     1.01e-15             TRUE
+   3.04e-03 9.23e-04     4.96e-03             TRUE
+   2.47e-02 2.65e-03     3.44e-02             TRUE
+   1.90e-11 1.25e-02     6.06e-11             TRUE
+   2.40e-10 1.91e-02     6.69e-10             TRUE
+   1.15e-13 1.91e-02     5.92e-13             TRUE
+   4.92e-09 2.04e-02     1.14e-08             TRUE
+   1.37e-11 3.23e-02     4.84e-11             TRUE
+   3.48e-21 3.57e-02     1.17e-19             TRUE
+   1.40e-09 4.68e-02     3.47e-09             TRUE
+   cohort  gene StromaScore ImmuneScore Epithelial cells
+     TCGA   IL6        0.40        0.40            -0.07
+     TCGA CXCL8        0.21        0.42            -0.03
+     TCGA PTGS2        0.28        0.35            -0.02
+     TCGA TIMP1        0.42        0.22             0.17
+     TCGA  MMP3        0.29        0.26             0.03
+ GSE39582   IL6        0.39        0.22            -0.35
+ GSE39582 CXCL8        0.19        0.16            -0.19
+ GSE39582 PTGS2        0.27        0.10            -0.11
+ GSE39582 TIMP1        0.39        0.37            -0.33
+ GSE39582  MMP3        0.12       -0.02            -0.08
+   cohort        term    HR   L95   U95        p
+     TCGA        risk 1.742 1.357 2.237 1.36e-05
+     TCGA stageIII-IV 3.118 2.003 4.855 4.78e-07
+     TCGA         CD8 0.945 0.722 1.235 6.76e-01
+     TCGA          M2 0.938 0.721 1.219 6.31e-01
+     TCGA        Treg 0.798 0.444 1.436 4.52e-01
+     TCGA      Immune 1.222 0.875 1.706 2.40e-01
+     TCGA      Stroma 0.873 0.682 1.119 2.84e-01
+ GSE39582        risk 1.158 0.987 1.357 7.13e-02
+ GSE39582 stageIII-IV 1.761 1.321 2.348 1.16e-04
+ GSE39582         CD8 0.910 0.733 1.128 3.88e-01
+ GSE39582          M2 1.133 0.959 1.338 1.42e-01
+ GSE39582        Treg 1.012 0.863 1.188 8.83e-01
+ GSE39582      Immune 0.951 0.757 1.194 6.64e-01
+ GSE39582      Stroma 1.184 1.037 1.353 1.28e-02
