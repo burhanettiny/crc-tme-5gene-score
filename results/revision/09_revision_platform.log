@@ -9,21 +9,21 @@ IL1A     0.0000  0.0000   0.0000
 TIMP1    0.2495  0.2422   0.2281
 CXCL12   0.0000  0.0000   0.0000
 MMP3    -0.1623 -0.2627  -0.2741
-Spearman rho with original score (GSE39582): z = 0.964 | rank-INT = 0.902 
+Spearman rho with original score (GSE39582): z = 0.959 | rank-INT = 0.901 
 GSE39582 patients with zero follow-up (excluded from training): 6 
 GSE39582-trained coefficients:
-    MYC  COL1A1    IL1A   TIMP1    MMP3 
--0.0682  0.0145  0.0515  0.1248 -0.1031 
+    IL6     MYC  COL1A1    IL1A   TIMP1  CXCL12    MMP3 
+ 0.0755 -0.1759  0.0510  0.0616  0.0068 -0.0096 -0.2057 
 lambda.1se genes: 0 
-                                     Score HR_SD  L95  U95
-         GSE39582: original (unharmonized)  1.26 1.09 1.44
-              GSE39582: z-score harmonized  1.27 1.10 1.46
-             GSE39582: rank-INT harmonized  1.27 1.11 1.45
-       TCGA: original (training, apparent)  1.69 1.36 2.10
- TCGA: GSE39582-trained score (reverse, z)  1.35 1.09 1.65
+                                     Score HR_SD   L95  U95
+         GSE39582: original (unharmonized)  1.25 1.080 1.43
+              GSE39582: z-score harmonized  1.24 1.080 1.43
+             GSE39582: rank-INT harmonized  1.25 1.090 1.43
+       TCGA: original (training, apparent)  1.69 1.360 2.10
+ TCGA: GSE39582-trained score (reverse, z)  1.20 0.974 1.48
         p HR_SD_stage  p_stage  AUC3 AUC_L AUC_U p_logrank
- 1.36e-03        1.22 4.01e-03 0.587 0.525 0.650  0.012700
- 7.56e-04        1.23 3.03e-03 0.600 0.538 0.662  0.024500
- 5.24e-04        1.24 1.82e-03 0.602 0.541 0.663  0.001020
+ 2.28e-03        1.21 6.67e-03 0.583 0.519 0.646  0.011300
+ 2.62e-03        1.20 9.44e-03 0.592 0.529 0.656  0.034900
+ 1.76e-03        1.21 5.69e-03 0.596 0.535 0.658  0.003710
  2.45e-06        1.68 3.36e-06 0.628 0.544 0.713  0.000304
- 4.89e-03        1.33 7.79e-03 0.606 0.522 0.690  0.010600
+ 8.64e-02        1.20 8.82e-02 0.591 0.506 0.676  0.165000

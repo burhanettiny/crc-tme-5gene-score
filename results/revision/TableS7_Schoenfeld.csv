@@ -16,8 +16,8 @@
 "TCGA_MMP3","gender",1.267,0.26
 "TCGA_MMP3","stage_f",4.16,0.0414
 "TCGA_MMP3","GLOBAL",8.153,0.0861
-"GSE_risk_uni","risk_score",0.044,0.834
-"GSE_risk_uni","GLOBAL",0.044,0.834
-"GSE_risk_stage","risk_score",0.001,0.98
-"GSE_risk_stage","stage_f",3.131,0.0768
-"GSE_risk_stage","GLOBAL",3.133,0.209
+"GSE_risk_uni","risk_score",0.013,0.908
+"GSE_risk_uni","GLOBAL",0.013,0.908
+"GSE_risk_stage","risk_score",0.012,0.913
+"GSE_risk_stage","stage_f",3.46,0.0629
+"GSE_risk_stage","GLOBAL",3.479,0.176

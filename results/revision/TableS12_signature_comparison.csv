@@ -2,8 +2,8 @@
 "Stage",0.584,2202.2,NA,NA,NA,NA,NA
 "Stage + 5-gene",0.603,2197.2,1.54,1.13,2.11,0.00667,0.00797
 "Stage + Oncotype-like",0.605,2194.6,NA,NA,NA,NA,NA
-"Stage + CMS",0.609,2203.6,NA,NA,NA,NA,NA
+"Stage + CMS",0.612,2202.2,NA,NA,NA,NA,NA
 "Stage + CIT",0.611,2199.1,NA,NA,NA,NA,NA
 "Stage + Oncotype-like + 5-gene",0.608,2194.8,1.28,0.89,1.83,0.18,0.183
-"Stage + CMS + 5-gene",0.616,2201.6,1.44,1.01,2.04,0.0413,0.0439
+"Stage + CMS + 5-gene",0.622,2200.1,1.44,1.01,2.04,0.0418,0.0443
 "Stage + CIT + 5-gene",0.614,2197.4,1.43,1,2.06,0.0508,0.0546

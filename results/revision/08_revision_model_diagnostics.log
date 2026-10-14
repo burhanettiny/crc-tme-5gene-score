@@ -1,5 +1,5 @@
 TCGA n = 436 | events = 91 | EPV (10 candidates) = 9.1 | EPV (5 selected) = 18.2 
-GSE39582 n = 579 | events = 194 
+GSE39582 n = 562 | events = 191 
    gene original refit_lambda_min lambda_1se
     IL6   0.3558           0.3558          0
    IL1B   0.0000           0.0000          0
@@ -30,14 +30,14 @@ lambda.min = 0.00807 ( 5 genes ) | lambda.1se = 0.0569 ( 0 genes )
        TCGA_MMP3     gender 1.267 0.2600
        TCGA_MMP3    stage_f 4.160 0.0414
        TCGA_MMP3     GLOBAL 8.153 0.0861
-    GSE_risk_uni risk_score 0.044 0.8340
-    GSE_risk_uni     GLOBAL 0.044 0.8340
-  GSE_risk_stage risk_score 0.001 0.9800
-  GSE_risk_stage    stage_f 3.131 0.0768
-  GSE_risk_stage     GLOBAL 3.133 0.2090
+    GSE_risk_uni risk_score 0.013 0.9080
+    GSE_risk_uni     GLOBAL 0.013 0.9080
+  GSE_risk_stage risk_score 0.012 0.9130
+  GSE_risk_stage    stage_f 3.460 0.0629
+  GSE_risk_stage     GLOBAL 3.479 0.1760
      exp(coef) exp(-coef) lower .95 upper .95
 TCGA     3.798      0.263     2.039     7.075
-GSE      1.544      0.648     1.132     2.107
+GSE      1.508      0.663     1.102     2.062
 
 VIF: 3.03 3.08 2.57 1.17 2.22 | condition indices: 1 1.76 2.58 3.37 3.87 
        IL6 CXCL8 PTGS2 TIMP1 MMP3
@@ -111,11 +111,11 @@ Without IL6 : CXCL8, TIMP1, MMP3
 Without CXCL8 : IL6, PTGS2, COL1A1, IL1A, TIMP1, MMP3 
                    Score HR_SD  L95  U95        p
        TCGA, without IL6  1.50 1.20 1.87 3.00e-04
-   GSE39582, without IL6  1.24 1.08 1.43 2.30e-03
+   GSE39582, without IL6  1.21 1.05 1.40 6.94e-03
      TCGA, without CXCL8  1.68 1.35 2.10 3.83e-06
- GSE39582, without CXCL8  1.25 1.09 1.44 1.71e-03
+ GSE39582, without CXCL8  1.24 1.08 1.43 2.76e-03
  HR_SD_stage  p_stage  AUC3 AUC_L AUC_U p_logrank
         1.51 3.33e-04 0.613 0.530 0.697   0.00799
-        1.21 8.08e-03 0.612 0.554 0.671   0.17437
+        1.18 2.20e-02 0.604 0.545 0.664   0.20526
         1.70 3.06e-06 0.625 0.540 0.709   0.00401
-        1.23 4.10e-03 0.590 0.527 0.654   0.00680
+        1.22 6.49e-03 0.587 0.523 0.651   0.02462
