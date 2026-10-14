@@ -35,7 +35,7 @@ gs <- cc[, c("sample","sex","age","tnm_stage","stage_binary","os_time","os_event
 gs <- cbind(gs, as.data.frame(G10), add_cols(G10, Gk2), add_cols(cbind(G10, Gk2), G25),
             add_cols(cbind(G10, Gk2, G25), Gon))
 stopifnot(nrow(gs) == 579)
-wcsv(gs, "gse39582_analysis.csv")
+wcsv(gs, "gse39582_analysis.csv")   # then run tools/add_tissue_and_cms.R (adds `tissue`, tumour-only CMS)
 
 ## ---- 3. xCell scores ----
 wcsv(data.frame(cell_type = rownames(xc_t), xc_t, check.names = FALSE), "xcell_tcga_coad.csv")
