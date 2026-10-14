@@ -15,6 +15,10 @@ K2    <- c("MYC","CDK1","CCNB1","TOP2A","CD44","CCNA2","AURKA","CHEK1","MAD2L1",
 ## ---- Processed analysis tables (see tools/export_processed_data.R) ----
 tc <- read.csv("data/processed/tcga_coad_analysis.csv", check.names = FALSE)
 gs <- read.csv("data/processed/gse39582_analysis.csv",  check.names = FALSE)
+## GSE39582 contains 566 primary tumours and 19 adjacent non-tumoural mucosa samples
+## (Marisa et al. 2013). Only primary tumours are analysed.
+stopifnot("tissue" %in% names(gs))
+gs <- gs[gs$tissue == "tumor", ]
 cf <- read.csv("data/processed/tcga_lasso_coefficients.csv")
 b_orig <- setNames(cf$coef, cf$gene)                       # original LASSO coefficients (10 genes)
 

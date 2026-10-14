@@ -44,9 +44,11 @@ clin39582$stage_binary <- dplyr::case_when(
   TRUE ~ NA_character_)
 
 ## Complete cases for survival
+## REVISION FIX: GSE39582 also contains 19 non-tumoural mucosa samples; keep primary tumours only
+clin39582$tissue <- ifelse(grepl("Adenocarcinoma", pdat[["source_name_ch1"]]), "tumor", "normal")
 clin_complete <- clin39582 %>%
-  dplyr::filter(!is.na(os_event), !is.na(os_time))
-cat("Complete cases (n):", nrow(clin_complete), "  [expected: 579]\n")
+  dplyr::filter(tissue == "tumor", !is.na(os_event), !is.na(os_time))
+cat("Complete cases, primary tumours (n):", nrow(clin_complete), "  [expected: 562]\n")
 
 ## ---- 3. Probe collapsing (highest variance per gene) ----
 gene_col <- grep("Gene symbol", colnames(fdat), ignore.case=TRUE, value=TRUE)[1]

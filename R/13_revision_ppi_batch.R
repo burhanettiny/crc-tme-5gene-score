@@ -24,7 +24,7 @@ g1 <- net("data/processed/cohort1_ppi_edges.csv"); g2 <- net("data/processed/coh
 summ <- function(g, label) {
   dg <- degree(g); pl <- fit_power_law(dg[dg > 0], implementation = "plfit", p.value = TRUE)
   data.frame(network = label, nodes = vcount(g), unique_edges = ecount(g), density = signif(edge_density(g), 3),
-             components = components(g)$no, largest_component = max(components(g)$csize),
+             components = igraph::components(g)$no, largest_component = max(igraph::components(g)$csize),
              mean_degree = round(mean(dg), 1), median_degree = median(dg),
              global_clustering = round(transitivity(g, "global"), 3),
              powerlaw_alpha = round(pl$alpha, 2), powerlaw_xmin = pl$xmin, powerlaw_KS_p = signif(pl$KS.p, 3),
